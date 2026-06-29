@@ -1,0 +1,28 @@
+baseURL: "https://bragic.cloud/"
+languageCode: en-us
+title: bragic.cloud
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+params:
+  homeInfoParams:
+    Title: "bragic"
+    Content: "welcome"
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+
+  showReadingTime: true
+  showShareButtons: false
+  showPostNavLinks: true
+
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
