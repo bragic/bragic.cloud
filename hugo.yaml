@@ -46,6 +46,3 @@ menu:
     - name: About
       url: "https://resume.bradgravesen.com"
       weight: 3
-    - name: Search
-      url: /search/
-      weight: 4
