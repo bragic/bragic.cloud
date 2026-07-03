@@ -19,7 +19,7 @@ params:
       - name: Projects
         url: /projects/
       - name: About
-        url: /about/
+        url: "https://resume.bradgravesen.com"
 
   socialIcons:
     - name: github
@@ -44,7 +44,7 @@ menu:
       url: /projects/
       weight: 2
     - name: About
-      url: /about/
+      url: "https://resume.bradgravesen.com"
       weight: 3
     - name: Search
       url: /search/
