@@ -1,28 +1,51 @@
 baseURL: "https://bragic.cloud/"
 languageCode: en-us
-title: bragic.cloud
+title: bragic
 theme: PaperMod
 
 pagination:
   pagerSize: 10
 
 params:
-  homeInfoParams:
-    Title: "bragic"
-    Content: "welcome"
+  profileMode:
+    enabled: true
+    title: "bragic"
+    subtitle: "engineer. builder. occasional blogger."
+    imageUrl: ""
+    imageTitle: ""
+    buttons:
+      - name: Posts
+        url: /posts/
+      - name: Projects
+        url: /projects/
+      - name: About
+        url: /about/
+
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/bragic/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/bgravesen"
 
   showReadingTime: true
   showShareButtons: false
   showPostNavLinks: true
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+
+  defaultTheme: auto
 
 menu:
   main:
     - name: Posts
       url: /posts/
       weight: 1
+    - name: Projects
+      url: /projects/
+      weight: 2
     - name: About
       url: /about/
-      weight: 2
+      weight: 3
+    - name: Search
+      url: /search/
+      weight: 4
