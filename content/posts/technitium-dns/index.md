@@ -1,7 +1,7 @@
 ---
 title: "Replacing Pi-hole with Technitium and Managing DNS Records with Terraform"
 date: 2026-11-24
-draft: true
+draft: false
 tags: ["homelab", "dns", "technitium", "terraform", "docker"]
 ---
  
